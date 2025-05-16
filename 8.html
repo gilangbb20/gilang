@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>document</title>
+</head>
+<body>
+
+<h1 id="BelajarJavascript">Belajar Javascript</h1>
+<button id="buttonUbah">Ubah Teks</button>
+
+<script>
+const h1Element = document.getElementById('BelajarJavascript');
+const button = document.getElementById('buttonUbah');
+
+button.addEventListener('click', function() {
+  h1Element.textContent = "Teks telah diubah";
+});
+</script>
+
+</body>
+</html>
